@@ -1,6 +1,6 @@
 ---
 ---
-<img src="1-min.png.jpg" width="500" height="500">
+<img src="1-min.png" width="500" height="500">
 # Muhammad Rasyid
 
 * Nama Saya Muhammad Rasyid (mrasyid22)
