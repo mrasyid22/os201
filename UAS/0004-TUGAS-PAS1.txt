@@ -1,0 +1,36 @@
+Script started on Mon 08 Jun 2020 09:41:30 PM WIB
+muhammad.rasyid82@badak:~$ # #####################
+muhammad.rasyid82@badak:~$ PS1="$ "
+$ echo $GitHubUser
+mrasyid22
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-214159-817b-muhammad.rasyid82/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-214204-5dc2-muhammad.rasyid82/> echo -e $CEKSAYA
+mrasyid22 ZCZCSCRIPTSTART 200603-152846 mrasyid22
+ mrasyid22 mrasyid22 200603-154535-3bb6-muhammad.rasyid82/ 200603-154535 SEQOK SUMOK 3bb6a4bf
+ mrasyid22 mrasyid22 200603-154545-1d18-muhammad.rasyid82/ 200603-154545 SEQOK SUMOK 1d184203
+ mrasyid22 mrasyid22 200603-154620-bf21-muhammad.rasyid82/ 200603-154620 SEQOK SUMOK bf212b7a
+ mrasyid22 mrasyid22 200603-154638-e8dd-muhammad.rasyid82/ 200603-154638 SEQOK SUMOK e8dd86bc
+ mrasyid22 ZCZCSCRIPTSTOP 200603-154646 SEQOK
+200608-214210-9834-muhammad.rasyid82/> echo -e $CEKSEBELA1
+mrasyid22 ZCZCSCRIPTSTART 200605-011922 mrifqyz
+ mrasyid22 mrifqyz 200605-011948-83f9-UAS/ 200605-011948 SEQOK SUMOK 83f9cb9c
+ mrasyid22 mrifqyz 200605-012000-ab31-UAS/ 200605-012000 SEQOK SUMOK ab31a0ec
+ mrasyid22 mrifqyz 200605-012008-729f-UAS/ 200605-012008 SEQOK SUMOK 729fd266
+ mrasyid22 mrifqyz 200605-012023-81cf-UAS/ 200605-012023 SEQOK SUMOK 81cf476d
+ mrasyid22 ZCZCSCRIPTSTOP 200603-012037 SEQOK
+200608-214215-e70e-muhammad.rasyid82/> echo -e $CEKSEBELA2
+mrasyid22 ZCZCSCRIPTSTART 200604-145352 Mufalando
+ mrasyid22 Mufalando 200604-145452-4aa8-OS/ 200604-145452 SEQOK SUMOK 4aa80a33
+ mrasyid22 Mufalando 200604-145457-ab49-OS/ 200604-145457 SEQOK SUMOK ab4904ce
+ mrasyid22 Mufalando 200604-145524-9001-OS/ 200604-145524 SEQOK SUMOK 900197e9
+ mrasyid22 Mufalando 200604-145528-5425-OS/ 200604-145528 SEQOK SUMOK 54259aa1
+ mrasyid22 Mufalando 200604-145542-eed0-OS/ 200604-145542 SEQOK SUMOK eed0c106
+ mrasyid22 ZCZCSCRIPTSTOP 200604-145600 SEQOK
+200608-214221-0682-muhammad.rasyid82/> exit
+exit
+
+Script done on Mon 08 Jun 2020 09:42:27 PM WIB
