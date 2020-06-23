@@ -1,12 +1,12 @@
 Script started on Wed 03 Jun 2020 03:28:46 PM WIB
-muhammad.rasyid82@badak:~$ cat 0001-mytest.txt
-muhammad.rasyid82@badak:~$ PS1="$ "
+]0;muhammad.rasyid82@badak: ~muhammad.rasyid82@badak:~$ cat 0001-mytest.txt
+]0;muhammad.rasyid82@badak: ~muhammad.rasyid82@badak:~$ PS1="$ "
 $ echo $GitHubUser
 mrasyid22
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200603-154535-3bb6-muhammad.rasyid82/>
+200603-154535-3bb6-muhammad.rasyid82/> 
 $ PS1="\$(eval \$PSTAMP)"
 200603-154545-1d18-muhammad.rasyid82/> date
 Wed Jun  3 15:46:20 WIB 2020
